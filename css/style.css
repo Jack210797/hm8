@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.block {
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: cadetblue;
+}
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+
+.сlearfix {
+  clear: both;
+}
+
+.container {
+  width: 200px;
+  float: right;
+}
+
+.big {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.sm-top {
+  float: right;
+}
+.sm-buttom {
+  float: right;
+}
+
+.container-center {
+  width: 200px;
+  clear: both;
+  margin-left: calc(50% - 100px);
+  margin-right: calc(50% - 100px);
+}
